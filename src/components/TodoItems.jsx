@@ -2,7 +2,7 @@ import './CSS/TodoItems.css'
 import checkmark from './Assets/checkmark.jpeg'
 import crossmark from './Assets/crossmark.jpeg'
 import uncheck from './Assets/uncheck.png'
-
+//****************************** */
 export const TodoItems = ({no,display,text,setTodos}) => {
     const deletes = (no)=>{
         let data=JSON.parse(localStorage.getItem("todos"));
